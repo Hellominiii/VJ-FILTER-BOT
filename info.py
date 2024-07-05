@@ -94,7 +94,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 VERIFY = bool(environ.get('VERIFY', True))
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', True))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'zipshort.net')
-VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'a37bd0e6190b14ff1c189e54dbaab94fe5a72bbe+')
+VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'a37bd0e6190b14ff1c189e54dbaab94fe5a72bbe')
 # if verify second shortner is True then fill below url and api
 VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'publicearn.com')
 VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '7307594e5e1df8e8f21361a5ed2bf72f76c4ece3')
