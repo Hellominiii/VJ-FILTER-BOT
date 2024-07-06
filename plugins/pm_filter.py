@@ -2796,6 +2796,11 @@ async def auto_filter(client, name, msg, reply_msg, ai_search, spoll=False):
                 InlineKeyboardButton("sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
             ]
         )
+        btn.insert(0, 
+            [
+               InlineKeyboardButton('📌Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ📌', url="https://t.me/requestboxmovies")
+            ]
+        )
         btn.insert(0, [
             InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
             InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
