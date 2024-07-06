@@ -296,9 +296,6 @@ async def advantage_spoll_choker(bot, query):
                 if NO_RESULTS_MSG:
                     await bot.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, movie)))
                 k = await query.message.edit(script.MVE_NT_FND)
-                 btn.insert(0, [
-            InlineKeyboardButton("‼️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Mᴏᴠɪᴇ ‼️", url=f'https://t.me/how_to_download_watch_88')
-        ])
                 await asyncio.sleep(10)
                 await k.delete()
 
